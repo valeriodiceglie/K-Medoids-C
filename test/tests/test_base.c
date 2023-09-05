@@ -44,8 +44,8 @@ bool test_base(void) {
     config.max_iters = 300;
     config.distance_type = 0;
     config.dim = dimension;
-    config.init_method = 0;
-    config.method = 0;
+    config.init_method = 2;
+    config.method = 1;
 
     kmedoid(&config);
 
@@ -86,6 +86,6 @@ bool test_base(void) {
     return true;
 }
 
-// here can we define new tests
+// here we can define new tests
 
 
